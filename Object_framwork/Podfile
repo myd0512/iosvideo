@@ -1,0 +1,50 @@
+platform :ios,"10.0"
+
+inhibit_all_warnings!
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'Object_framwork' do
+
+pod 'MJRefresh'
+
+pod 'Masonry'
+
+pod 'SVProgressHUD'
+
+pod 'YYCategories'
+
+pod 'YYModel'
+
+pod 'YYWebImage'
+
+pod 'IQKeyboardManager'
+
+pod 'SDWebImage'
+
+pod 'AFNetworking'
+
+pod 'MBProgressHUD'
+
+pod 'ReactiveObjC', '~> 3.0.0' # 信号
+
+pod 'MSWeakTimer', '~> 1.1.0' # 倒计时按钮 用
+#pod 'HXWeiboPhotoPicker' # 图片选择
+#pod 'WechatOpenSDK' # 微信
+#pod 'SpinKit' #加载动画
+#pod 'QMUIKit' #UI框架
+
+pod 'Toast'
+pod 'FDFullscreenPopGesture', '~> 1.1'
+
+# 私有库 (直接指定SDK的github仓库地址)
+pod 'libksygpulive/libksygpulive', :git => 'https://gitee.com/zhibangbang/KSYLive_iOS.git'
+pod 'libksygpulive/KSYGPUResource', :git => 'https://gitee.com/zhibangbang/KSYLive_iOS.git'
+#pod 'FLAnimatedImage'
+pod 'Socket.IO-Client-Swift'
+pod 'SocketRocket'
+
+#SVGAPlayer
+pod 'SVGAPlayer'
+
+end

@@ -1,0 +1,19 @@
+//
+//  Header_pch.pch
+//  Object_framwork
+//
+//  Created by 高通 on 2018/11/8.
+//  Copyright © 2018 www.zzwanbei.com. All rights reserved.
+//
+
+#ifndef Header_pch_pch
+#define Header_pch_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+// 全部框架基类的 .h引入
+#import "BaseHeaderFile.h"
+
+#endif /* Header_pch_pch */
+

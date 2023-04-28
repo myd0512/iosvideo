@@ -1,0 +1,155 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - FDFullscreenPopGesture (1.1)
+  - GPUImage (0.1.7)
+  - IQKeyboardManager (6.2.0)
+  - libksygpulive/base (3.0.4)
+  - libksygpulive/KSYGPUResource (3.0.4)
+  - libksygpulive/libksygpulive (3.0.4):
+    - GPUImage
+    - libksygpulive/streamerbase
+  - libksygpulive/mediacodec (3.0.4)
+  - libksygpulive/mediacore_enc_base (3.0.4)
+  - libksygpulive/mediacore_enc_lite (3.0.4)
+  - libksygpulive/streamerbase (3.0.4):
+    - libksygpulive/base
+    - libksygpulive/mediacodec
+    - libksygpulive/mediacore_enc_base
+    - libksygpulive/mediacore_enc_lite
+    - libksygpulive/yuv
+  - libksygpulive/yuv (3.0.4)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.1.0)
+  - MJRefresh (3.1.15.7)
+  - MSWeakTimer (1.1.0)
+  - Protobuf (3.11.4)
+  - ReactiveObjC (3.0.0)
+  - SDWebImage (4.4.2):
+    - SDWebImage/Core (= 4.4.2)
+  - SDWebImage/Core (4.4.2)
+  - Socket.IO-Client-Swift (15.2.0):
+    - Starscream (~> 3.1)
+  - SocketRocket (0.5.1)
+  - SSZipArchive (2.2.2)
+  - Starscream (3.1.1)
+  - SVGAPlayer (2.5.2):
+    - SVGAPlayer/Core (= 2.5.2)
+    - SVGAPlayer/ProtoFiles (= 2.5.2)
+  - SVGAPlayer/Core (2.5.2):
+    - SSZipArchive (>= 1.8.1)
+    - SVGAPlayer/ProtoFiles
+  - SVGAPlayer/ProtoFiles (2.5.2):
+    - Protobuf (~> 3.4)
+  - SVProgressHUD (2.2.5)
+  - Toast (4.0.0)
+  - YYCache (1.0.4)
+  - YYCategories (1.0.4):
+    - YYCategories/no-arc (= 1.0.4)
+  - YYCategories/no-arc (1.0.4)
+  - YYImage (1.0.4):
+    - YYImage/Core (= 1.0.4)
+  - YYImage/Core (1.0.4)
+  - YYModel (1.0.4)
+  - YYWebImage (1.0.5):
+    - YYCache
+    - YYImage
+
+DEPENDENCIES:
+  - AFNetworking
+  - FDFullscreenPopGesture (~> 1.1)
+  - IQKeyboardManager
+  - libksygpulive/KSYGPUResource (from `https://gitee.com/zhibangbang/KSYLive_iOS.git`)
+  - libksygpulive/libksygpulive (from `https://gitee.com/zhibangbang/KSYLive_iOS.git`)
+  - Masonry
+  - MBProgressHUD
+  - MJRefresh
+  - MSWeakTimer (~> 1.1.0)
+  - ReactiveObjC (~> 3.0.0)
+  - SDWebImage
+  - Socket.IO-Client-Swift
+  - SocketRocket
+  - SVGAPlayer
+  - SVProgressHUD
+  - Toast
+  - YYCategories
+  - YYModel
+  - YYWebImage
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+    - FDFullscreenPopGesture
+    - GPUImage
+    - IQKeyboardManager
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - MSWeakTimer
+    - Protobuf
+    - ReactiveObjC
+    - SDWebImage
+    - Socket.IO-Client-Swift
+    - SocketRocket
+    - SSZipArchive
+    - Starscream
+    - SVGAPlayer
+    - SVProgressHUD
+    - Toast
+    - YYCache
+    - YYCategories
+    - YYImage
+    - YYModel
+    - YYWebImage
+
+EXTERNAL SOURCES:
+  libksygpulive:
+    :git: https://gitee.com/zhibangbang/KSYLive_iOS.git
+
+CHECKOUT OPTIONS:
+  libksygpulive:
+    :commit: c83c2932a798a31adfd431ebf477806909864ae9
+    :git: https://gitee.com/zhibangbang/KSYLive_iOS.git
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
+  GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
+  IQKeyboardManager: 6194101620b73af5e67900b8f89707a99de0b804
+  libksygpulive: aca3eb30e7a38ee6565feb52feb82ccc0103ce43
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
+  MSWeakTimer: 9426150f933b80ed3acf3f6d228e4b61f0e303c8
+  Protobuf: 176220c526ad8bd09ab1fb40a978eac3fef665f7
+  ReactiveObjC: ce79989e8684b9086b5f8d0c74bc7b81a8729c9e
+  SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
+  Socket.IO-Client-Swift: 1e3e3a1f09f3312a167f0d781eb2f383d477357c
+  SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
+  SSZipArchive: fa16b8cc4cdeceb698e5e5d9f67e9558532fbf23
+  Starscream: 4bb2f9942274833f7b4d296a55504dcfc7edb7b0
+  SVGAPlayer: c666a7886b72ee77d494c49aa4fd61df175dd103
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
+  YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
+  YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+  YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
+
+PODFILE CHECKSUM: 225ac47b5f35a6528718f3ab9534d933d2eb8fa5
+
+COCOAPODS: 1.9.2
